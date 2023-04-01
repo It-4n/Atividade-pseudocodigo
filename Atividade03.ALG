@@ -1,8 +1,8 @@
 Algoritmo "Valores inteiros A e B"
-//FaÁa um algoritmo que leia dois valores inteiros A e B. Se os valores
-//forem iguais, dever· se somar os dois. Caso contr·rio, multiplique
-//A por B. Ao final de qualquer um dos dois c·lculos, deve-se atribuir
-//o resultado para uma vari·vel C e mostrar seu conte˙do na tela.
+//Fa√ßa um algoritmo que leia dois valores inteiros A e B. Se os valores
+//forem iguais, dever√° se somar os dois. Caso contr√°rio, multiplique
+//A por B. Ao final de qualquer um dos dois c√°lculos, deve-se atribuir
+//o resultado para uma vari√°vel C e mostrar seu conte√∫do na tela.
 
 Var
    valorA, valorB: inteiro
@@ -26,9 +26,13 @@ resultadoC1 <- valorA + valorB
 resultadoC2 <- valorA * valorB
 
 se(valorA = valorB)entao
-  escreva("Valor da soma: ", resultadoC1)
+  escreval("Valor da soma: ", resultadoC1)
+  escreval("")
+  escreval("Resultado C: ", resultadoC1)
 senao
-  escreva("Valor da multiplicaÁ„o", resultadoC2)
+  escreval("Valor da multiplica√ß√£o: ", resultadoC2)
+  escreval("")
+  escreval("Resultado C: ", resultadoC2)
 fimse
 
 Fimalgoritmo
