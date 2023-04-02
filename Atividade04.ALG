@@ -1,13 +1,13 @@
 Algoritmo "semnome"
-//Uma fruteira est· vendendo frutas com a seguinte tabela de preÁos:
+//Uma fruteira est√° vendendo frutas com a seguinte tabela de pre√ßos:
 //
-//             AtÈ 5KG         Acima de 5KG
+//             At√© 5KG         Acima de 5KG
 //Morango   R$2,50 por KG     R$2,20 por KG
-//MaÁ‚      R$1,80 por KG     R$1,50 por KG
+//Ma√ß√¢      R$1,80 por KG     R$1,50 por KG
 //
 //Se o cliente comprar mais de 8KG em frutas, ou o valor ultrapassar R$25,00,
-//receber· ainda um desconto de 10% sobre este total. Escreva um algoritmo
-//para ler a quantidade (em KG) de maÁ„s adquiridas e escreva o valor ‡ ser
+//receber√° ainda um desconto de 10% sobre este total. Escreva um algoritmo
+//para ler a quantidade (em KG) de ma√ß√£s adquiridas e escreva o valor √† ser
 //pago pelo cliente.
 Var
 valorMaca1, valorMaca2, pesoMaca, desconto: real
@@ -15,12 +15,12 @@ valorTotal1, valorTotal2: real
 
 Inicio
 
-escreva("Quantos KG de maÁ„ deseja comprar?: ")
+escreva("Quantos KG de ma√ß√£ deseja comprar?: ")
 leia(pesoMaca)
 
 limpatela
 
-escreval("Peso das maÁ„s: ", pesoMaca, " KG")
+escreval("Peso das ma√ß√£s: ", pesoMaca, " KG")
 escreval("")
 
 valorMaca1 <- 1.80
@@ -30,21 +30,21 @@ valorTotal2 <- pesoMaca * valorMaca2
 desconto <- valorTotal2 * 0.1
 
 se(pesoMaca > 5)entao
-  escreval("Valor unit·rio: ", "R$", valorMaca2)
+  escreval("Valor unit√°rio: ", "R$", valorMaca2)
   escreval("")
 senao
-  escreval("Valor unit·rio: ", "R$", valorMaca1)
+  escreval("Valor unit√°rio: ", "R$", valorMaca1)
   escreval("")
 fimse
 
-se(pesoMaca > 8)ou(valorTotal1 > 25)entao
+se(pesoMaca > 8)ou(valorTotal2 > 25)entao
   escreval("Subtotal: ", "R$", valorTotal2)
   escreval("")
   escreval("Descontos(10%):  ", "R$", desconto)
   escreval("")
-  escreval("Total ‡ pagar: ", "R$", valorTotal2 - desconto)
+  escreval("Total √† pagar: ", "R$", valorTotal2 - desconto)
 senao
-  escreval("Total ‡ pagar: ", "R$", valorTotal1)
+  escreval("Total √† pagar: ", "R$", valorTotal1)
 fimse
 
 Fimalgoritmo
