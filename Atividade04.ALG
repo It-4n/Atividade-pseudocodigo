@@ -1,4 +1,5 @@
-Algoritmo "semnome"
+Algoritmo "Valor das maçãs"
+
 //Uma fruteira está vendendo frutas com a seguinte tabela de preços:
 //
 //             Até 5KG         Acima de 5KG
@@ -9,6 +10,7 @@ Algoritmo "semnome"
 //receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo
 //para ler a quantidade (em KG) de maçãs adquiridas e escreva o valor à ser
 //pago pelo cliente.
+
 Var
 valorMaca1, valorMaca2, pesoMaca, desconto: real
 valorTotal1, valorTotal2: real
