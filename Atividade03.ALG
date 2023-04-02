@@ -1,4 +1,5 @@
 Algoritmo "Valores inteiros A e B"
+
 //Faça um algoritmo que leia dois valores inteiros A e B. Se os valores
 //forem iguais, deverá se somar os dois. Caso contrário, multiplique
 //A por B. Ao final de qualquer um dos dois cálculos, deve-se atribuir
