@@ -1,7 +1,9 @@
-Algoritmo "semnome"
-//FaÁa um programa que leia um cÛdigo de operaÁ„o (+, -,  * ou /) e tambÈm
+Algoritmo "Opera√ß√µes A e B"
+
+//Fa√ßa um programa que leia um c√≥digo de opera√ß√£o (+, -,  * ou /) e tamb√©m
 //dois valores inteiros A e B. O programa deve calcular o resultado da
-//operaÁ„o escolhida aplicado ‡ A e B.
+//opera√ß√£o escolhida aplicado √† A e B.
+
 Var
    soma, subtracao, divisao, multiplicacao, valorA, valorB: real
    operacoes: caractere
@@ -9,15 +11,15 @@ Var
 Inicio
 
 operacoes <- "Soma", "soma"
-operacoes <- "SubtraÁ„o", "subtraÁ„o"
-operacoes <- "Divis„o", "divis„o"
-operacoes <- "MultiplicaÁ„o", "multiplicaÁ„o"
+operacoes <- "Subtra√ß√£o", "subtra√ß√£o"
+operacoes <- "Divis√£o", "divis√£o"
+operacoes <- "Multiplica√ß√£o", "multiplica√ß√£o"
 
 escreva("Digite o valor de A: ")
 leia(valorA)
 escreva("Digite o valor de B: ")
 leia(valorB)
-escreva("Digite qual tipo de operaÁ„o vocÍ deseja realizar: ")
+escreva("Digite qual tipo de opera√ß√£o voc√™ deseja realizar: ")
 leia(operacoes)
 
 soma <- valorA + valorB
@@ -33,25 +35,25 @@ escreva("Valor de B: ", valorB)
 escreval("")
 
 se(operacoes = "Soma")ou(operacoes = "soma")entao
-  escreval("OperaÁ„o escolhida: Soma")
+  escreval("Opera√ß√£o escolhida: Soma")
   escreval("")
   escreva("Valor de A + B = ", valorA + valorB)
 fimse
 
-se(operacoes = "SubtraÁ„o")ou(operacoes = "subtraÁ„o")entao
-  escreval("OperaÁ„o escolhida: SubtraÁ„o")
+se(operacoes = "Subtra√ß√£o")ou(operacoes = "subtra√ß√£o")entao
+  escreval("Opera√ß√£o escolhida: Subtra√ß√£o")
   escreval("")
   escreva("Valor de A - B = ", valorA - ValorB)
 fimse
 
-se(operacoes = "Divis„o")ou(operacoes = "divis„o")entao
-  escreval("OperaÁ„o escolhida: Divis„o")
+se(operacoes = "Divis√£o")ou(operacoes = "divis√£o")entao
+  escreval("Opera√ß√£o escolhida: Divis√£o")
   escreval("")
-  escreva("Valor de A ˜ B = ", valorA / ValorB)
+  escreva("Valor de A √∑ B = ", valorA / ValorB)
 fimse
 
-se(operacoes = "MultiplicaÁ„o")ou(operacoes = "multiplicaÁ„o")entao
-  escreval("OperaÁ„o escolhida: MultiplicaÁ„o")
+se(operacoes = "Multiplica√ß√£o")ou(operacoes = "multiplica√ß√£o")entao
+  escreval("Opera√ß√£o escolhida: Multiplica√ß√£o")
   escreval("")
   escreva("Valor de A x B = ", valorA * ValorB)
 fimse
