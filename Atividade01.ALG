@@ -1,6 +1,8 @@
 Algoritmo "Valores A, B, C"
-//Faça um algoritmo que leia os valores A, B, C e imprima na tela se a
-//soma de A + B é menor que C.
+
+//FaÃ§a um algoritmo que leia os valores A, B, C e imprima na tela se a
+//soma de A + B Ã© menor que C.
+
 Var
    valorA, valorB, valorC, valorSoma: inteiro
 
@@ -26,9 +28,9 @@ escreval("Valor da soma de A e B: ", valorSoma)
 escreval("")
 
 se(valorA + valorB < valorC)entao
-  escreval("O valor de A + B é menor que C!")
+  escreval("O valor de A + B Ã© menor que C!")
 senao
-  escreval("O valor de A + B é maior que C!")
+  escreval("O valor de A + B Ã© maior que C!")
 fimse
 
 Fimalgoritmo
