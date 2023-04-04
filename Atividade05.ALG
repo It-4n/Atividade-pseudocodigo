@@ -1,8 +1,8 @@
 Algoritmo "Operações A e B"
 
-//Faça um programa que leia um código de operação (+, -,  * ou /) e também
-//dois valores inteiros A e B. O programa deve calcular o resultado da
-//operação escolhida aplicado à A e B.
+// Faça um programa que leia um código de operação (+, -,  * ou /) e também
+// dois valores inteiros A e B. O programa deve calcular o resultado da
+// operação escolhida aplicado à A e B.
 
 Var
    soma, subtracao, divisao, multiplicacao, valorA, valorB: real
