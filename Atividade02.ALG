@@ -5,18 +5,10 @@ Algoritmo "Tempo de casamento"
 //Casada (anos).
 
 Var
-   nome, sexo, sexoM, sexoF, estadoCivil, estado1, estado2, estado3: caracter
+   nome, sexo, estadoCivil: caracter
    anosCasamento: inteiro
 
 Inicio
-
-sexoM <- "Masculino"
-sexoM <- "M"
-sexoF <- "Feminino"
-sexoF <- "F"
-estado1 <- "Casada", "Casado"
-estado2 <- "Solteiro", "Solteira"
-estado3 <- "Viúvo", "Viúva"
 
 escreva("Digite seu nome: ")
 leia(nome)
@@ -34,7 +26,7 @@ escreval("")
 escreval("Estado civil: ", estadoCivil)
 escreval("")
 
-se(sexo = sexoF)e(estadoCivil = estado1)entao
+se(sexo = "Feminino")ou(sexo = "F")e(estadoCivil = "Casada")entao
   escreva("Quantos anos você possui de casamento?: ")
   leia(anosCasamento)
   limpatela
