@@ -10,11 +10,6 @@ Var
 
 Inicio
 
-operacoes <- "Soma", "soma"
-operacoes <- "Subtração", "subtração"
-operacoes <- "Divisão", "divisão"
-operacoes <- "Multiplicação", "multiplicação"
-
 escreva("Digite o valor de A: ")
 leia(valorA)
 escreva("Digite o valor de B: ")
