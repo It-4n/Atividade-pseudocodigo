@@ -1,10 +1,10 @@
-Algoritmo "Média do aluno"
+Algoritmo "MÃ©dia do aluno"
 
 //Escreva um programa que leia do teclado as duas notas de um aluno.
-//Calcule e exiba a média aritmética das notas. O programa deve,
-//adicionalmente, exibir uma mensagem de parabéns caso o aluno esteja
-//aprovado (média superior ou igual à 6.0), média até 4.0, o aluno está
-//em recuperação, e caso a média seja inferior à 4.0, o aluno será reprovado.
+//Calcule e exiba a mÃ©dia aritmÃ©tica das notas. O programa deve,
+//adicionalmente, exibir uma mensagem de parabÃ©ns caso o aluno esteja
+//aprovado (mÃ©dia superior ou igual Ã  6.0), mÃ©dia atÃ© 4.0, o aluno estÃ¡
+//em recuperaÃ§Ã£o, e caso a mÃ©dia seja inferior Ã  4.0, o aluno serÃ¡ reprovado.
 
 Var
    nota1, nota2, media: real
@@ -24,26 +24,19 @@ escreval("Nota da primeira unidade: ", nota1)
 escreval("")
 escreval("Nota da segunda unidade: ", nota2)
 escreval("")
-escreval("Média: ", media)
+escreval("MÃ©dia: ", media)
 escreval("")
 
 se(media >= 6)entao
-  escreval("Parabéns, você foi aprovado!")
+  escreval("ParabÃ©ns, vocÃª foi aprovado!")
 fimse
 
-se(media < 6)ou(media = 4)entao
-  escreval("Você está em recuperação.")
+se(media < 6)e(media >= 4)entao
+  escreval("VocÃª estÃ¡ em recuperaÃ§Ã£o.")
 fimse
 
 se(media < 4)entao
-  limpatela
-  escreval("Nota da primeira unidade: ", nota1)
-  escreval("")
-  escreval("Nota da segunda unidade: ", nota2)
-  escreval("")
-  escreval("Média: ", media)
-  escreval("")
-  escreval("Você foi reprovado.")
+  escreval("VocÃª foi reprovado.")
 fimse
 
 Fimalgoritmo
