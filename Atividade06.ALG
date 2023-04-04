@@ -1,10 +1,10 @@
 Algoritmo "Média do aluno"
 
-//Escreva um programa que leia do teclado as duas notas de um aluno.
-//Calcule e exiba a média aritmética das notas. O programa deve,
-//adicionalmente, exibir uma mensagem de parabéns caso o aluno esteja
-//aprovado (média superior ou igual à 6.0), média até 4.0, o aluno está
-//em recuperação, e caso a média seja inferior à 4.0, o aluno será reprovado.
+// Escreva um programa que leia do teclado as duas notas de um aluno.
+// Calcule e exiba a média aritmética das notas. O programa deve,
+// adicionalmente, exibir uma mensagem de parabéns caso o aluno esteja
+// aprovado (média superior ou igual à 6.0), média até 4.0, o aluno está
+// em recuperação, e caso a média seja inferior à 4.0, o aluno será reprovado.
 
 Var
    nota1, nota2, media: real
