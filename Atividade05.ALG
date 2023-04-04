@@ -33,24 +33,24 @@ se(operacoes = "Soma")ou(operacoes = "soma")entao
   escreval("Operação escolhida: Soma")
   escreval("")
   escreva("Valor de A + B = ", valorA + valorB)
-fimse
-
-se(operacoes = "Subtração")ou(operacoes = "subtração")entao
+senao
+ se(operacoes = "Subtração")ou(operacoes = "subtração")entao
   escreval("Operação escolhida: Subtração")
   escreval("")
   escreva("Valor de A - B = ", valorA - ValorB)
-fimse
-
-se(operacoes = "Divisão")ou(operacoes = "divisão")entao
+senao
+  se(operacoes = "Divisão")ou(operacoes = "divisão")entao
   escreval("Operação escolhida: Divisão")
   escreval("")
   escreva("Valor de A ÷ B = ", valorA / ValorB)
-fimse
-
-se(operacoes = "Multiplicação")ou(operacoes = "multiplicação")entao
+senao
+   se(operacoes = "Multiplicação")ou(operacoes = "multiplicação")entao
   escreval("Operação escolhida: Multiplicação")
   escreval("")
   escreva("Valor de A x B = ", valorA * ValorB)
+   fimse
+  fimse
+ fimse
 fimse
 
 Fimalgoritmo
