@@ -1,12 +1,12 @@
 Algoritmo "Quantidades e descontos"
 
-//Faça um algoritmo para ler: a descrição do produto (nome),
-//a quantidade adquirida e o preço unitário. Calcular e escrever o total
-//(Total = quantidade adquirida * preço unitário), o desconto e o total
-//à pagar (Total à pagar = total - desconto), sabendo-se que:
-//Se quantidade <= 5, o desconto será de 2%
-//Se quantidade > 5 ou <= 10, o desconto será de 3%
-//Se quantidade > 10, o desconto será de 5%
+// FaÃ§a um algoritmo para ler: a descriÃ§Ã£o do produto (nome),
+// a quantidade adquirida e o preÃ§o unitÃ¡rio. Calcular e escrever o total
+// (Total = quantidade adquirida * preÃ§o unitÃ¡rio), o desconto e o total
+// Ã  pagar (Total Ã  pagar = total - desconto), sabendo-se que:
+// Se quantidade <= 5, o desconto serÃ¡ de 2%
+// Se quantidade > 5 ou <= 10, o desconto serÃ¡ de 3%
+// Se quantidade > 10, o desconto serÃ¡ de 5%
 
 Var
    descricao: caracter
@@ -15,9 +15,9 @@ Var
 
 Inicio
 
-escreva("Qual produto você deseja comprar?: ")
+escreva("Qual produto vocÃª deseja comprar?: ")
 leia(descricao)
-escreva("Qual a quantidade que você deseja adquirir?: ")
+escreva("Qual a quantidade que vocÃª deseja adquirir?: ")
 leia(quantidade)
 
 limpatela
@@ -38,19 +38,19 @@ escreval("")
 se(quantidade <= 5)entao
   escreval("Descontos: 2% = ", "R$", desconto1)
   escreval("")
-  escreval("Total à pagar: ", "R$", total - desconto1)
+  escreval("Total Ã  pagar: ", "R$", total - desconto1)
 fimse
 
 se(quantidade > 5)e(quantidade <= 10)entao
   escreval("Descontos: 3% =", "R$", desconto2)
   escreval("")
-  escreval("Total à pagar: ", "R$", total - desconto2)
+  escreval("Total Ã  pagar: ", "R$", total - desconto2)
 fimse
 
 se(quantidade > 10)entao
   escreval("Descontos: 5% = ", "R$", desconto3)
   escreval("")
-  escreval("Total à pagar: ", "R$", total - desconto3)
+  escreval("Total Ã  pagar: ", "R$", total - desconto3)
 fimse
 
 Fimalgoritmo
