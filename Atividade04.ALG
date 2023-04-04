@@ -1,15 +1,15 @@
 Algoritmo "Valor das maçãs"
 
-//Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+// Uma fruteira está vendendo frutas com a seguinte tabela de preços:
 //
-//             Até 5KG         Acima de 5KG
-//Morango   R$2,50 por KG     R$2,20 por KG
-//Maçâ      R$1,80 por KG     R$1,50 por KG
+//              Até 5KG         Acima de 5KG
+// Morango   R$2,50 por KG     R$2,20 por KG
+// Maçã      R$1,80 por KG     R$1,50 por KG
 //
-//Se o cliente comprar mais de 8KG em frutas, ou o valor ultrapassar R$25,00,
-//receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo
-//para ler a quantidade (em KG) de maçãs adquiridas e escreva o valor à ser
-//pago pelo cliente.
+// Se o cliente comprar mais de 8KG em frutas, ou o valor ultrapassar R$25,00,
+// receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo
+// para ler a quantidade (em KG) de maçãs adquiridas e escreva o valor à ser
+// pago pelo cliente.
 
 Var
 valorMaca1, valorMaca2, pesoMaca, desconto: real
